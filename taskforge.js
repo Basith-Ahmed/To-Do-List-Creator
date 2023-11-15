@@ -18,7 +18,6 @@ function addTodo() {
   taskElement.value = "";
   renderTodoList();
 }
-
 function renderTodoList() {
   //generating html and displaying
   let todoHTML = "";
