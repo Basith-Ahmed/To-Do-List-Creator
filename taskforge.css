@@ -1,0 +1,39 @@
+.to-do-grid,
+.to-do-input-grid {
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 5px;
+}
+.to-do-input-grid {
+  margin-bottom: 10px;
+}
+input {
+    padding-left: 10px;
+    background-color: aliceblue;
+    border-color: #adceff;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+h1 {
+    text-align: center;
+
+    font-size: 60px;
+}
+.js-date {
+    padding-right: 10px;
+}
+.to-do-container {
+    background-color: #6c757d12;
+    border-radius: 7px;
+    padding: 10px;
+}
