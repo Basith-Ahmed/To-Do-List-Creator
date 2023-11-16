@@ -31,11 +31,12 @@ function renderTodoList() {
     } &#8226; ${task}</div><div style="padding-left: 10px;">${date}</div> <button class="btn btn-secondary" onclick="
       console.log(${todoList.length})
       if (${todoList.length} === 1) {
-        todoList.splice(${i}, 1);
+        localStorage.removeItem('todo');
+        // todoList.splice(${i}, 1);
         location.reload(); 
       } else {
         todoList.splice(${i}, 1);
-      }
+      };
       renderTodoList();
         ">Delete</button>`;
     todoHTML = todoHTML + html;
