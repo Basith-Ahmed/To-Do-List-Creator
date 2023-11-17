@@ -5,7 +5,6 @@
 <div style="
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 10px;
   ">
 <img src="https://github.com/Basith-Ahmed/To-Do-List-Creator/blob/main/screenshots/Screenshot%20(114).png">
 <img src="https://github.com/Basith-Ahmed/To-Do-List-Creator/blob/main/screenshots/Screenshot%20(115).png">
