@@ -7,9 +7,3 @@
 <img src="https://github.com/Basith-Ahmed/To-Do-List-Creator/blob/main/screenshots/Screenshot%20(115).png">
 <img src="https://github.com/Basith-Ahmed/To-Do-List-Creator/blob/main/screenshots/Screenshot%20(116).png">
 </div>
-<style>
-  div {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-  }
-</style>
