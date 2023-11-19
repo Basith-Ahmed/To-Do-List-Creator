@@ -27,9 +27,9 @@ function renderTodoList() {
     const todoObject = todoList[i];
     const task = todoObject.task;
     const date = todoObject.date;
-    const html = `<div style="padding-left: 10px;">${
-      Number(i) + 1
-    } &#8226; ${task}</div><div style="padding-left: 10px;">${date}</div> <button class="btn btn-secondary" onclick="
+    const html = 
+    `<div style="padding-left: 10px;">${Number(i) + 1} &#8226; ${task}</div>
+    <div style="padding-left: 10px;">${date}</div> <button class="btn btn-secondary" onclick="
       console.log(${todoList.length})
       if (${todoList.length} === 1) {
         localStorage.removeItem('todo');
