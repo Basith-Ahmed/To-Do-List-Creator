@@ -25,15 +25,39 @@ body {
     margin: 0;
   }
 h1 {
+    margin-top: 5px;
     text-align: center;
-
-    font-size: 60px;
+    font-size: 40px;
 }
 .js-date {
-    padding-right: 10px;
+    padding-right: 8px;
 }
 .to-do-container {
     background-color: #6c757d12;
     border-radius: 7px;
     padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.065), 0px 0px 3px rgba(0, 0, 0, 0.048), inset 0px 0px 3px rgba(255, 255, 255, 0.1);
+}
+.addButton {
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0) 100%), #007AFF;
+box-shadow: 0px 1px 2.5px rgba(0, 122, 255, 0.24), 0px 0px 0px 0.5px rgba(0, 122, 255, 0.12);
+border-radius: 5px;
+color: #FFFFFF;
+border: none;
+}
+.deleteButton {
+background: #FFFFFF;
+box-shadow: 0px 0.5px 2.5px rgba(0, 0, 0, 0.3), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.05);
+border-radius: 5px;
+color: #FF3B30;
+border: none;
+}
+#input, #date {
+background: #FFFFFF;
+box-shadow: 0px 0.5px 2.5px rgba(0, 0, 0, 0.3), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.05);
+border-radius: 5px;
+color: rgba(0, 0, 0, 0.725);
+border: none;
 }

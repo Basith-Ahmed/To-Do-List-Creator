@@ -11,10 +11,10 @@
         <h1>To - Do List</h1>
 
         <div class="to-do-input-grid">
-          <input placeholder="Task" class="js-input" onkeydown="keyDown(event)" />
-          <input type="date" class="js-date" onkeydown="keyDown(event)"/>
+          <input placeholder="Enter task" class="js-input" id="input" class="task" onkeydown="keyDown(event)" />
+          <input type="date" class="js-date" id="date" onkeydown="keyDown(event)"/>
     
-          <button class="btn btn-primary" onclick="addTodo();">Add</button>
+          <button class="addButton" onclick="addTodo();">Add</button>
         </div>
     
         <div class="js-todo-array to-do-grid"></div>
