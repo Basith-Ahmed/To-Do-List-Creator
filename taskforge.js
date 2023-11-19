@@ -33,7 +33,6 @@ function renderTodoList() {
       console.log(${todoList.length})
       if (${todoList.length} === 1) {
         localStorage.removeItem('todo');
-        // todoList.splice(${i}, 1);
         location.reload(); 
       } else {
         todoList.splice(${i}, 1);
