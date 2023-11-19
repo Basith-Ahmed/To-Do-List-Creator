@@ -13,11 +13,11 @@ function addTodo() {
   const dateElement = document.querySelector(".js-date");
   const task = taskElement.value;
   const date = dateElement.value;
-  dateElement.value = 0;
   todoList.push({ task: task, date: date });
   console.log(todoList);
   localStorage.setItem("todo", JSON.stringify(todoList));
   taskElement.value = "";
+  dateElement.value = "";
   renderTodoList();
 }
 function renderTodoList() {
